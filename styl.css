@@ -35,6 +35,15 @@ section.f{
 
 }
 
+section.k{
+  background-color:#efefef;
+  margin-right: 5%;
+  margin-left: 15%;
+  padding: 1%;
+  height: auto;
+
+}
+
 .aside-menu li {
 	font-weight: 300;
   list-style-type: none; 
@@ -152,4 +161,7 @@ header{
 .text{
   padding-top: 2%;
   font-size: 13px;
+}
+#surveyElement{
+  margin-bottom: 10%;
 }
