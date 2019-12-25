@@ -1,0 +1,250 @@
+body {
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	background-color: #e9eaeb;
+	border-top: 0;
+	margin: 0;
+}
+.main-wrapper {
+  height: 100%;
+  padding-top: 100px;
+  background-color: #008070;
+}
+p {
+	margin: 20px 0;}
+
+
+aside {
+	position: fixed;
+	float: left;
+	width: 22vh;
+	height: 95vh;
+	background-color: #2C333D;
+	display: block;
+	text-align: left;
+}
+section {
+	margin-left: 200px;
+}
+section.f{
+  background-color:#efefef;
+  margin-right: 5%;
+  margin-left: 15%;
+  margin-top: 1%;
+  padding: 1%;
+  height: 95vh;
+
+}
+section.s{
+  background-color:#efefef;
+  margin-right: 5%;
+  margin-left: 15%;
+  margin-top: 1%;
+  padding: 1%;
+  height: 110vh;
+}
+
+.aside-menu li {
+	font-weight: 300;
+  list-style-type: none; 
+  line-height: 1.5em;
+  font-size: 105%;
+  text-align: center;
+  margin-top: 30%;
+  margin-left: -22%;
+  margin-right: 8%;
+  text-shadow: black;
+  box-shadow: black;
+  border:1px solid #c4c4c4;
+  border-radius:3px;
+  padding: 0 5px 2px 5px; 
+  }
+
+.aside-menu li.active {
+  color: #328972;
+  font-weight: 300;
+  list-style-type: none; 
+  line-height: 1.5em;
+  font-size: 105%;
+  text-align: center;
+  margin-left: -22%;
+  margin-right: 8%;
+  text-shadow: black;
+  box-shadow: black;
+  border:1px solid #c4c4c4;
+  border-radius:3px;
+  padding: 0 5px 2px 5px;
+}
+
+.aside-menu a {
+  color:#328972 ;
+  text-decoration: none;
+}   
+footer{
+	position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  background: #2C333D; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  width: 22vh;
+	height: 5vh; 
+	text-align: center;
+	color: #328972;
+  border-top: 1px solid #235f4f;
+}
+footer li {
+  font-weight: 300;
+  list-style-type: none; 
+  line-height: 1.5em;
+  font-size: 105%;
+  text-align: left;
+ }
+footer a {
+  color:#328972 ;
+  text-decoration: none;
+  margin-left: 10%;
+}   
+footer li:first-child {
+  border: none;
+}
+
+footer li.active {
+  color: #328972;
+}
+ a:visited {
+    color: #328972;
+}
+a{
+  text-decoration: none;
+
+}
+a:hover {
+  color:#0e4781;
+}
+li{
+  list-style-type: none;
+}
+blockquote {
+	margin: 0;
+	background: #e9eaeb;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  margin-right: 1%;
+	
+}
+
+blockquote p {
+	color: #328972;
+	font-style: Tahoma;
+	font-size: 30px;
+	margin: 0;
+	text-align:right; 
+}
+blockquote cite {
+	display: block;
+	font-size: 15px;
+	font-style: normal;
+	color: #235f4f;
+  margin: 0;
+  margin-right: 1%;
+  text-align: right;
+}
+header{
+	float: right;
+}
+.text{
+  padding-top: 2%;
+  font-size: 17px; 
+  margin-right: 1%;
+}
+div>h1{
+  text-align: center;
+}
+.text1{
+  padding-top: 2%;
+  font-size: 23px; 
+  text-align: left;
+  font:#328972;
+}
+.text2{
+  padding-top: 2%;
+  font-size: 13px; 
+  margin-right: 1%;
+}
+table{
+  padding-right: 10%;
+  background-color:#efefef;
+  padding-left: 10%;
+}
+.main_ban {
+  margin-top: 2%;
+  padding-top: 4%;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  color: #7e696d;
+}
+.ban {
+  margin-top: 10%;
+  border:5px solid #872434;
+  width: 20%;
+  height: 35%;
+  margin-left: 5%;
+  box-shadow: 0px 1px 3px 1px #cecece;
+  background-color: #872434 ;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2%;
+  color: #fff;
+}
+.ban_head{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+}
+.ban_2{
+  border:5px solid #872434;
+  background-color: #872434 ;
+  float: right;
+  width: 20%;
+  height: 35%;
+  margin-top: -27%;
+  margin-right: 40%;
+  box-shadow: 0px 1px 3px 1px #cecece;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2%;
+  color: #fff;
+}
+.ban_3{
+  border:5px solid #872434;
+  background-color: #872434 ;
+  float: right;
+  width: 20%;
+  height: 35%;
+  margin-top: -27%;
+  margin-right: -55%;
+  box-shadow: 0px 1px 3px 1px #cecece;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2%;
+  color: #fff;
+}
+.text{
+  padding-top: 2%;
+  font-size: 14px;
+}
+#surveyElement{
+  margin-bottom: 10%;
+}
+div.text{
+  margin-top: 2%;
+}
+div.text2{
+  padding-top: 2%;
+  font-size: 14px;
+}
+.textind{
+  padding-top: 18%;
+  font-size: 14px;
+}
